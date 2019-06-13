@@ -139,3 +139,4 @@ Route::group(['middleware' => ['auth']], function(){
 });
 
 Route::resource('shops', 'ShopController');
+Route::resource('home', 'HomeController');
