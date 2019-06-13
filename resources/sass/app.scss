@@ -6,3 +6,127 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+body {
+  font-size: 14px;
+  line-height: 16px;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  background: #fff !important;
+  min-width: 320px;
+}
+img {
+  max-width: 100%;
+}
+.input-group > .form-control:focus {
+  box-shadow: none;
+  border: 0;
+  outline: none;
+}
+.container {
+  width: 100%;
+  max-width: 1600px !important;
+}
+#header {
+  position: relative;
+  margin: 0 0 30px;
+  .header-holder {
+    padding: 0;
+    .toper-nav {
+      padding: 15px 0;
+      background: #00a2be;
+      position: relative;
+      z-index: 1;
+      margin: 0 0 20px;
+      :after {
+        position: absolute;
+        left: -9999px;
+        right: -9999px;
+        content: "";
+        background:#00a2be;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+      }
+      ul {
+        margin:0;
+        padding:0;
+        list-style: none;
+        li {
+          display: inline-block;
+          padding: 0 10px;
+          font-size: 14px;
+          line-height: 16px;
+          color: #fff;
+          a {
+            color: #fff;
+          }
+        }
+      }
+    }
+    .logo-bar {
+      width: 150px;
+      float: left;
+    }
+    .input-group {
+      border: 1px solid #000;
+      input {
+        border: 0;
+      }
+    }
+    .cart-icon {
+      float: right;
+      position: relative;
+      i {
+        font-size: 30px;
+        line-height: 32px;
+        color: #a138b2;
+      }
+      span {
+        position: absolute;
+        top: -5px;
+        left: auto;
+        right: -6px;
+        content: "";
+        bottom: auto;
+        background: red;
+        width: 15px;
+        height: 15px;
+        text-align: center;
+        color: #fff;
+        border-radius: 100%;
+        font-size: 12px;
+        line-height: 14px;
+      }
+    }
+    .content-info {
+      padding: 0 30px;
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+          font-size: 22px;
+          line-height: 24px;
+          width: 24%;
+          padding: 0 15px;
+          font-weight: 500;
+          display: inline-block;
+          text-align: center;
+          a {
+            color: #7b7b7b;
+            &:hover {
+              text-decoration: none;
+            }
+            i {
+              font-size: 20px;
+              line-height: 22px;
+              color: #7b7b7b;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
