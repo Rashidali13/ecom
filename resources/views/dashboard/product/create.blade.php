@@ -276,9 +276,39 @@
 
                             <div id="demo-stk-lft-tab-7" class="tab-pane fade">
                                 <div class="form-group">
-                                    <label class="col-lg-2 control-label">{{__('Description')}}</label>
-                                    <div class="col-lg-9">
-                                        <textarea class="editor" name="description"></textarea>
+                                    <label class="col-lg-2 control-label">{{__('Colors')}}</label>
+                                    <div class="col-lg-7">
+                                        <input type="text" min="0" step="0.01" placeholder="{{__('4*4')}}" name="price4" class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-lg-2 control-label">{{__('Paper Type')}}</label>
+                                    <div class="col-lg-7">
+                                        <input type="text" min="0" step="0.01" placeholder="{{__('14PT Gloss (95 Bright C2S)?')}}" name="price4" class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-lg-2 control-label">{{__('Coating')}}</label>
+                                    <div class="col-lg-7">
+                                        <input type="text" min="0" step="0.01" placeholder="{{__('No Coating')}}" name="price4" class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-lg-2 control-label">{{__('Coating')}}</label>
+                                    <div class="col-lg-7">
+                                        <input type="text" min="0" step="0.01" placeholder="{{__('No Coating')}}" name="price4" class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-lg-2 control-label">{{__('Quantities')}}</label>
+                                    <div class="col-lg-7">
+                                        <input type="text" min="0" step="0.01" placeholder="{{__('Ranges from 25 to 5,000')}}" name="price4" class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-lg-2 control-label">{{__('Quantities')}}</label>
+                                    <div class="col-lg-7">
+                                        <input type="text" min="0" step="0.01" placeholder="{{__('Ranges from 25 to 5,000')}}" name="price4" class="form-control" required>
                                     </div>
                                 </div>
                             </div>
