@@ -45,7 +45,7 @@ class ProductController extends Controller
     public function create()
     {
         $categories = Category::all();
-        return view('products.create', compact('categories'));
+        return view('dashboard.product.create', compact('categories'));
     }
 
     /**
@@ -63,8 +63,7 @@ class ProductController extends Controller
         $product->user_id = Auth::user()->id;
         $product->category_id = $request->category_id;
         $product->subcategory_id = $request->subcategory_id;
-        $product->subsubcategory_id = $request->subsubcategory_id;
-        $product->brand_id = $request->brand_id;
+        $product->dis = $request->dis;
 
         $photos = array();
 
