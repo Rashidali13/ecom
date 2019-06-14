@@ -83,18 +83,39 @@
                             </div>
                             <div class="sidebar-nav">
                                 <ul>
-                                    <li><a href="#">Top Sellers</a></li>
-                                    <li><a href="#">Large Format</a></li>
-                                    <li><a href="#">Print Products</a></li>
-                                    <li><a href="#">Specialty Papers</a></li>
-                                    <li><a href="#">Packaging</a></li>
-                                    <li><a href="#">Stationery</a></li>
-                                    <li><a href="#">Labels / Stickers</a></li>
-                                    <li><a href="#">ApparelNEW</a></li>
-                                    <li><a href="#">Direct Mail</a></li>
-                                    <li><a href="#">Promotional</a></li>
-                                    <li><a href="#">Office Materials</a></li>
-                                    <li><a href="#">Business Tools NEW</a></li>
+                                    <li>
+                                        <a href="#">Top Sellers<i class="fas fa-angle-right"></i></a>
+                                        <div class="cata-drop-down">
+                                            <ul>
+                                                <li><a href="#">Business Cards<i class="fas fa-angle-right"></i></a></li>
+                                                <li><a href="#">Specialty Business Cards<i class="fas fa-angle-right"></i></a></li>
+                                                <li><a href="#">Postcards<i class="fas fa-angle-right"></i></a></li>
+                                                <li><a href="#">Specialty PostcardsNEW<i class="fas fa-angle-right"></i></a></li>
+                                                <li><a href="#">Flyers<i class="fas fa-angle-right"></i></a></li>
+                                                <li><a href="#">Brochures<i class="fas fa-angle-right"></i></a></li>
+                                                <li><a href="#">Roll Labels / Stickers<i class="fas fa-angle-right"></i></a></li>
+                                                <li><a href="#">Bookmarks<i class="fas fa-angle-right"></i></a></li>
+                                                <li><a href="#">Presentation Folders<i class="fas fa-angle-right"></i></a></li>
+                                                <li><a href="#">Booklets<i class="fas fa-angle-right"></i></a></li>
+                                                <li><a href="#">Magnets<i class="fas fa-angle-right"></i></a></li>
+                                                <li><a href="#">Greeting CardsNEW<i class="fas fa-angle-right"></i></a></li>
+                                                <li><a href="#">Numbered Tickets<i class="fas fa-angle-right"></i></a></li>
+                                                <li><a href="#">Wall Calendars<i class="fas fa-angle-right"></i></a></li>
+                                                <li><a href="#">Variable Printing<i class="fas fa-angle-right"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">Large Format<i class="fas fa-angle-right"></i></a></a></li>
+                                    <li><a href="#">Print Products<i class="fas fa-angle-right"></i></a></a></li>
+                                    <li><a href="#">Specialty Papers<i class="fas fa-angle-right"></i></a></a></li>
+                                    <li><a href="#">Packaging<i class="fas fa-angle-right"></i></a></a></li>
+                                    <li><a href="#">Stationery<i class="fas fa-angle-right"></i></a></a></li>
+                                    <li><a href="#">Labels / Stickers<i class="fas fa-angle-right"></i></a></a></li>
+                                    <li><a href="#">ApparelNEW<i class="fas fa-angle-right"></i></a></a></li>
+                                    <li><a href="#">Direct Mail<i class="fas fa-angle-right"></i></a></a></li>
+                                    <li><a href="#">Promotional<i class="fas fa-angle-right"></i></a></a></li>
+                                    <li><a href="#">Office Materials<i class="fas fa-angle-right"></i></a></a></li>
+                                    <li><a href="#">Business Tools NEW<i class="fas fa-angle-right"></i></a></a></li>
                                 </ul>
                             </div>
                         </div>
