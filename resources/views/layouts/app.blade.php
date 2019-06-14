@@ -87,7 +87,34 @@
                                         <a href="#">Top Sellers<i class="fas fa-angle-right"></i></a>
                                         <div class="cata-drop-down">
                                             <ul>
-                                                <li><a href="#">Business Cards<i class="fas fa-angle-right"></i></a></li>
+                                                <li>
+                                                    <a href="#">Business Cards<i class="fas fa-angle-right"></i></a>
+                                                    <div class="sub-dropdown">
+                                                        <div class="text-info">
+                                                            <div class="text-bar">
+                                                                <h2>Business Cards</h2>
+                                                                <p>Professional services for Custom Business Card Printing and Personalized Cards. We are your trusted printing services provider.
+                                                                </p>
+                                                            </div>
+                                                            <div class="image-holder">
+                                                                <img src="public/assets/img/card.jpg" alt="">
+                                                            </div>
+                                                        </div>
+                                                        <ul>
+                                                            <h2>Select a Product Type</h2>
+                                                            <li><a href="#">14pt (Profit Maximizer)</a></li>
+                                                            <li><a href="#">16pt + AQ</a></li>
+                                                            <li><a href="#">Same Day Business Cards</a></li>
+                                                            <li><a href="#">18PT Writable (C1S)</a></li>
+                                                            <li><a href="#">14pt + Matte Finish</a></li>
+                                                            <li><a href="#">13pt Enviro Uncoated</a></li>
+                                                            <li><a href="#">14pt Writable + AQ (C1S)</a></li>
+                                                            <li><a href="#">16pt Matte Lam + SPOT UV</a></li>
+                                                            <li><a href="#">16pt Matte / Silk Lamination</a></li>
+                                                            <li><a href="#">38PT Luxury</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
                                                 <li><a href="#">Specialty Business Cards<i class="fas fa-angle-right"></i></a></li>
                                                 <li><a href="#">Postcards<i class="fas fa-angle-right"></i></a></li>
                                                 <li><a href="#">Specialty PostcardsNEW<i class="fas fa-angle-right"></i></a></li>

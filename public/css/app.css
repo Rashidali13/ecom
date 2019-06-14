@@ -10904,8 +10904,104 @@ img {
   width: 0;
 }
 
+#main .side-bar .sidebar-nav ul li .cata-drop-down ul li {
+  position: relative;
+}
+
 #main .side-bar .sidebar-nav ul li .cata-drop-down ul li a {
   border: 0;
   padding: 5px 0;
+}
+
+#main .side-bar .sidebar-nav ul li .cata-drop-down ul li .sub-dropdown {
+  position: absolute;
+  left: auto;
+  top: -5px;
+  right: -595px;
+  content: "";
+  bottom: auto;
+  width: 575px;
+  border: solid 1px #dae2e6;
+  box-shadow: 0 3px 15px -2px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+#main .side-bar .sidebar-nav ul li .cata-drop-down ul li .sub-dropdown:after {
+  border: 9px solid;
+  border-color: transparent #dae2e6 transparent transparent;
+  z-index: 2;
+  left: -18px;
+  top: 10px;
+  right: auto;
+  content: "";
+  display: block;
+  height: 0;
+  position: absolute;
+  width: 0;
+}
+
+#main .side-bar .sidebar-nav ul li .cata-drop-down ul li .sub-dropdown:before {
+  border: 8px solid;
+  border-color: transparent #fff transparent transparent;
+  z-index: 3;
+  left: -16px;
+  top: 11px;
+  content: "";
+  display: block;
+  height: 0;
+  position: absolute;
+  width: 0;
+}
+
+#main .side-bar .sidebar-nav ul li .cata-drop-down ul li .sub-dropdown .text-info {
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+#main .side-bar .sidebar-nav ul li .cata-drop-down ul li .sub-dropdown .text-info .text-bar {
+  width: 50%;
+  float: left;
+  padding: 0 5px;
+}
+
+#main .side-bar .sidebar-nav ul li .cata-drop-down ul li .sub-dropdown .text-info .text-bar h2 {
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #08c;
+  float: left;
+  margin: 0 0 10px;
+  width: 100%;
+  text-transform: capitalize;
+}
+
+#main .side-bar .sidebar-nav ul li .cata-drop-down ul li .sub-dropdown .text-info .text-bar p {
+  font-size: 14px;
+  float: left;
+  line-height: 16px;
+  margin: 0 0 7px;
+  width: 100%;
+  color: #7b7b7b;
+}
+
+#main .side-bar .sidebar-nav ul li .cata-drop-down ul li .sub-dropdown .text-info .image-holder {
+  width: 50%;
+  float: left;
+  padding: 0 5px;
+}
+
+#main .side-bar .sidebar-nav ul li .cata-drop-down ul li .sub-dropdown ul h2 {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+  color: #000;
+  float: left;
+  width: 100%;
+  margin: 0 0 10px;
+}
+
+#main .side-bar .sidebar-nav ul li .cata-drop-down ul li .sub-dropdown ul li {
+  width: 50%;
+  float: left;
 }
 
