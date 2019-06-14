@@ -76,8 +76,28 @@
             </header>
             <main id="main" role="main">
                 <div class="row">
-                    <div class="col-md-3">
-
+                    <div class="col-md-3 col-lg-2">
+                        <div class="side-bar">
+                            <div class="toper-text">
+                                <h2>SHOP BY DEPARTMENT</h2>
+                            </div>
+                            <div class="sidebar-nav">
+                                <ul>
+                                    <li><a href="#">Top Sellers</a></li>
+                                    <li><a href="#">Large Format</a></li>
+                                    <li><a href="#">Print Products</a></li>
+                                    <li><a href="#">Specialty Papers</a></li>
+                                    <li><a href="#">Packaging</a></li>
+                                    <li><a href="#">Stationery</a></li>
+                                    <li><a href="#">Labels / Stickers</a></li>
+                                    <li><a href="#">ApparelNEW</a></li>
+                                    <li><a href="#">Direct Mail</a></li>
+                                    <li><a href="#">Promotional</a></li>
+                                    <li><a href="#">Office Materials</a></li>
+                                    <li><a href="#">Business Tools NEW</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-1"></div>
                     @yield('content')
