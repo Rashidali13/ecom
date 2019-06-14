@@ -12,6 +12,7 @@
     <!-- Scripts -->
     <script src="https://kit.fontawesome.com/71a841c0f3.js"></script>
     <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('public/assets/js/custom.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -93,8 +94,11 @@
                                                         <div class="text-info">
                                                             <div class="text-bar">
                                                                 <h2>Business Cards</h2>
-                                                                <p>Professional services for Custom Business Card Printing and Personalized Cards. We are your trusted printing services provider.
+                                                                <p class="add">Professional services for Custom Business Card Printing and Personalized Cards. We are your trusted printing services provider.
                                                                 </p>
+                                                                <div class="block">
+                                                                    <p></p>
+                                                                </div>
                                                             </div>
                                                             <div class="image-holder">
                                                                 <img src="public/assets/img/card.jpg" alt="">
@@ -102,16 +106,16 @@
                                                         </div>
                                                         <ul>
                                                             <h2>Select a Product Type</h2>
-                                                            <li><a href="#">14pt (Profit Maximizer)</a></li>
-                                                            <li><a href="#">16pt + AQ</a></li>
-                                                            <li><a href="#">Same Day Business Cards</a></li>
-                                                            <li><a href="#">18PT Writable (C1S)</a></li>
-                                                            <li><a href="#">14pt + Matte Finish</a></li>
-                                                            <li><a href="#">13pt Enviro Uncoated</a></li>
-                                                            <li><a href="#">14pt Writable + AQ (C1S)</a></li>
-                                                            <li><a href="#">16pt Matte Lam + SPOT UV</a></li>
-                                                            <li><a href="#">16pt Matte / Silk Lamination</a></li>
-                                                            <li><a href="#">38PT Luxury</a></li>
+                                                            <li><a href="#" title="My Account" class="event">14pt (Profit Maximizer)</a></li>
+                                                            <li><a href="#" class="event">16pt + AQ</a></li>
+                                                            <li><a href="#" class="event">Same Day Business Cards</a></li>
+                                                            <li><a href="#" class="event">18PT Writable (C1S)</a></li>
+                                                            <li><a href="#" class="event">14pt + Matte Finish</a></li>
+                                                            <li><a href="#" class="event">13pt Enviro Uncoated</a></li>
+                                                            <li><a href="#" class="event">14pt Writable + AQ (C1S)</a></li>
+                                                            <li><a href="#" class="event">16pt Matte Lam + SPOT UV</a></li>
+                                                            <li><a href="#" class="event">16pt Matte / Silk Lamination</a></li>
+                                                            <li><a href="#" class="event">38PT Luxury</a></li>
                                                         </ul>
                                                     </div>
                                                 </li>
