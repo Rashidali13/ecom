@@ -11,16 +11,16 @@
 
     <!-- Scripts -->
     <script src="https://kit.fontawesome.com/71a841c0f3.js"></script>
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    {{--<script src="{{ asset('js/app.js') }}" defer></script>--}}
     <script src="{{ asset('public/assets/js/custom.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
-
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/assets/css/smoothslides.theme.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="wrapper">
@@ -65,8 +65,8 @@
                             <div class="content-info">
 
                                 <ul>
-                                    <li><a href="#"><i class="far fa-envelope"></i> Submit a Support Ticket</a></li>
-                                    <li><a href="#"><i class="fas fa-phone"></i> 1-866-899-2499</a></li>
+                                    <li><a href="#"><i class="far fa-envelope"></i> hmdesigner.print@gmail.com</a></li>
+                                    <li><a href="tel:9057902976"><i class="fas fa-phone"></i> 905-790-2976</a></li>
                                     <li><a href="#"><i class="fas fa-comments"></i> Live Chat</a></li>
                                     <li><a href="#"><i class="fas fa-question"></i> Support Center</a></li>
                                 </ul>
@@ -151,11 +151,77 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-1"></div>
                     @yield('content')
                 </div>
             </main>
         </div>
+        <footer id="footer">
+            <div class="container">
+                <div class="footer-holder">
+                    <div class="row">
+                        <div class="col-md-4 col-lg-4 border-right pt-2">
+                            <div class="footer-logo">
+                                <a href="#"><img src="{{ asset('public/assets/img/home-logo.png') }}" alt=""></a>
+                            </div>
+                            <div class="add">
+                                <h2>
+                                    BUSINESS HOURS</h2>
+                                <address>
+                                    Monday to Friday<br>
+                                    Customer Service: 8 AM to 5 PM EST<br>
+                                    Local Pickup: 8 AM to 9 PM EST
+                                </address>
+                                <a href="tel:18668992499" class="tel"><i class="fas fa-phone" aria-hidden="true"></i>905-790-2976</a>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="footer-nav pt-2">
+                                <ul>
+                                    <h2>H&M Designers</h2>
+                                    <li><a href="#">About SinaLite</a></li>
+                                    <li><a href="#">Reviews</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Terms of Service</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Sitemap</a></li>
+                                </ul>
+                                <ul>
+                                    <h2>OUR SERVICES</h2>
+                                    <li><a href="#">Shipping Options</a></li>
+                                    <li><a href="#">Turnaround Options</a></li>
+                                    <li><a href="#">Direct Mail</a></li>
+                                    <li><a href="#">Custom Quotes</a></li>
+                                    <li><a href="#">Submit Custom Order</a></li>
+                                    <li><a href="#">Branded Websites</a></li>
+                                </ul>
+                                <ul>
+                                    <h2>RESOURCES</h2>
+                                    <li><a href="#">Support Center</a></li>
+                                    <li><a href="#">Artwork Setup Guides</a></li>
+                                    <li><a href="#">Free Delivery Eligibility</a></li>
+                                    <div class="social-link">
+                                        <ul>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
+<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+<script src="{{ asset('public/assets/js/jquery.js') }}" defer></script>
+<script src="{{ asset('public/assets/js/smoothslides-2.1.0.min.js') }}" defer></script>
+<script type="text/javascript">
+    $(window).load( function(){
+        $('#smoothslider').smoothSlides();
+    });
+</script>

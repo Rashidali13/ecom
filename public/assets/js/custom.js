@@ -10,3 +10,4 @@ $(function() {
         $('#main .side-bar .sidebar-nav ul li .cata-drop-down ul li .sub-dropdown .text-info .text-bar .add').removeClass("inverse");
     });
 });
+
